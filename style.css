@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@font-face {
+  font-family: Norse-Bold;
+  src: url(Norse-Bold.otf) format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.image-section {
+  background-image: url(https://images.unsplash.com/photo-1562590556-7c6ffed1ff96?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 40vw;
+}
+
+.logo {
+  display: flex;
+  flex-flow: row wrap;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.493);
+  position: relative;
+  top: 20vh;
+  gap: 3vh;
+  padding: 15px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.odin {
+  height: 10vh;
+}
+
+.text-odin {
+  font-family: "Norse-Bold", serif;
+  font-size: 4rem;
+  color: white;
+}
+
+.right-section {
+  font-family: "Roboto", sans-serif;
+  width: 60vw;
+  background-color: #bfb5828f;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
