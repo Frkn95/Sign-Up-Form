@@ -11,7 +11,7 @@
     <main class="main">
       <div class="image-section">
         <div class="logo">
-          <img class="odin" src="odin-lined.png" alt="Odin logo" />
+          <img class="odin" src="/utils/odin-lined.png" alt="Odin logo" />
           <h1 class="text-odin">ODIN</h1>
         </div>
       </div>
@@ -21,8 +21,48 @@
           <p>Learn new skills and build impressive projects for your career</p>
           <p class="gapped-text">You know you want it!</p>
         </div>
-        <form action="#"></form>
-        <div class="log-in"></div>
+        <form action="#">
+          <div class="form">
+            <p class="title">Please provide us some information about you.</p>
+            <div class="input">
+              <label for="first-name">First name:</label>
+              <input type="text" name="first_name" id="first-name" required />
+            </div>
+
+            <div class="input">
+              <label for="lastName">Last name:</label>
+              <input type="text" name="last_name" id="lastName" required />
+            </div>
+
+            <div class="input">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+
+            <div class="input">
+              <label for="number">Phone number:</label>
+              <input type="text" name="number" id="number" minlength="9" maxlength="10" />
+            </div>
+
+            <div class="input">
+              <label for="password">Password:</label>
+              <input type="password" name="password" id="password" required />
+            </div>
+
+            <div class="input">
+              <label for="confirm-password">Confirm password</label>
+              <input type="password" name="confirm-password" id="confirm-password" required />
+            </div>
+          </div>
+        </form>
+        <div class="log-in">
+          <div class="button">
+            <button type="submit">Create Account</button>
+          </div>
+          <div class="login-text">
+            <p>Already have an account? <a href="#">Log in</a></p>
+          </div>
+        </div>
       </div>
     </main>
   </body>
